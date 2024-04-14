@@ -14,6 +14,17 @@ public extension View {
             .preferredColorScheme(.dark)
     }
     
+    // Frame
+    
+    func conditionalFrameMaxHight(_ array: [CGFloat?]) -> some View {
+        for arrayHeight in array {
+            if let arrayHeight = arrayHeight {
+                return AnyView(self.frame(maxHeight: arrayHeight))
+            }
+        }
+        return AnyView(self)
+    }
+    
     // Foreground
     
     func conditionalForegroud(_ value: Color?) -> some View {
