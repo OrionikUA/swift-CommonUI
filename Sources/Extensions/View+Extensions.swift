@@ -18,35 +18,60 @@ public extension View {
     
     func conditionalForegroud(_ value: Color?) -> some View {
         if let color = value {
-            return AnyView(self.foregroundColor(color))
+            AnyView(self.foregroundColor(color))
         } else {
-            return AnyView(self)
+            AnyView(self)
         }
     }
     
     func conditionalForegroud(_ show: Bool, _ value: Color) -> some View {
         if (show) {
-            return AnyView(self.foregroundColor(value))
+            AnyView(self.foregroundColor(value))
         } else {
-            return AnyView(self)
+            AnyView(self)
         }
+    }
+    
+    func conditionalForegroud(_ array: [Color?], _ defaultColor: Color?) -> some View {
+        for arrayColor in array {
+            if let arrayColor = arrayColor {
+                return AnyView(self.foregroundColor(arrayColor))
+            }
+        }
+        if let defaultColor = defaultColor {
+            return AnyView(self.foregroundColor(defaultColor))
+        }
+        return AnyView(self)
     }
     
     // Background
     
     func conditionalBackground(_ value: Color?) -> some View {
         if let color = value {
-            return AnyView(self.background(color))
+            AnyView(self.background(color))
         } else {
-            return AnyView(self)
+            AnyView(self)
         }
     }
     
+    
     func conditionalBackground(_ show: Bool, _ value: Color) -> some View {
         if (show) {
-            return AnyView(self.background(value))
+            AnyView(self.background(value))
         } else {
-            return AnyView(self)
+            AnyView(self)
         }
+    }
+    
+    func conditionalBackground(_ array: [Color?], _ defaultColor: Color?) -> some View {
+        for arrayColor in array {
+            if let arrayColor = arrayColor {
+                return AnyView(self.background(arrayColor))
+            }
+        }
+        if let defaultColor = defaultColor {
+            return AnyView(self.background(defaultColor))
+        }
+        return AnyView(self)
     }
 }
