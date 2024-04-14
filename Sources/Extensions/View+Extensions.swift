@@ -63,14 +63,11 @@ public extension View {
         }
     }
     
-    func conditionalBackground(_ array: [Color?], _ defaultColor: Color? = nil) -> some View {
+    func conditionalBackground(_ array: [Color?]) -> some View {
         for arrayColor in array {
             if let arrayColor = arrayColor {
                 return AnyView(self.background(arrayColor))
             }
-        }
-        if let defaultColor = defaultColor {
-            return AnyView(self.background(defaultColor))
         }
         return AnyView(self)
     }
