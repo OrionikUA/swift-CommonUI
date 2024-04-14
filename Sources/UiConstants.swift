@@ -28,5 +28,6 @@ public enum UiConstants {
         public static var click: Color { .accentColor.opacity(0.8) }
         public static let hover: Color = Color(red: 0.208, green: 0.216, blue: 0.216, opacity: 1.000)
         public static var accentHover: Color { .accentColor.opacity(0.4) }
+        public static var selected: Color { .accentColor }
     }
 }
