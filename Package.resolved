@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-common",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OrionikUA/swift-Common.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "596b34397f767b09231d232e5f34f6f786118226"
+      }
+    }
+  ],
+  "version" : 2
+}
