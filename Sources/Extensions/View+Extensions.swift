@@ -12,6 +12,7 @@ public extension View {
         self
             .frame(minWidth: 1460, maxWidth: .infinity, minHeight: 890, maxHeight: .infinity, alignment: .center)
             .preferredColorScheme(.dark)
+            .font(UiConstants.AppFont.base)
     }
     
     // Frame

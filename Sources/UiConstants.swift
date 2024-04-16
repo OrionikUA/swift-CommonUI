@@ -6,6 +6,9 @@ public enum UiConstants {
     public enum AppFont {
         public static let baseSize: CGFloat = 12
         public static var base: Font = Font.system(size: baseSize, weight: .bold, design: .rounded)
+        public static var small: Font = Font.system(size: baseSize - 2, weight: .bold, design: .rounded)
+        public static var medium: Font = Font.system(size: baseSize + 2, weight: .bold, design: .rounded)
+        public static var big: Font = Font.system(size: baseSize + 4, weight: .bold, design: .rounded)
     }
     
     public enum AppPadding {
