@@ -98,6 +98,7 @@ public extension View {
                 }
             } else {
                 NSCursor.arrow.set()
+                isHovering.wrappedValue = nil
             }
         })
     }
