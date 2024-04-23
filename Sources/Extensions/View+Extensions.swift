@@ -102,4 +102,14 @@ public extension View {
             }
         })
     }
+    
+    // OnTapGesture
+    
+    func conditionalOnTapGesture(action: (() -> Void)?) -> some View {
+        if let action = action {
+            return AnyView(self.onTapGesture(perform: action))
+        } else {
+            return AnyView(self)
+        }
+    }
 }
