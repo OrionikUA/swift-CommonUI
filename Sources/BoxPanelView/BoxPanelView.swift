@@ -2,13 +2,13 @@ import Foundation
 import SwiftUI
 import AppKit
 
-struct BoxPanelView: View {
+public struct BoxPanelView: View {
     
-    let first: BoxPanelSmallRectModel?
-    let second: BoxPanelSmallRectModel?
-    let main: BoxPanelSmallRectModel
-    let third: BoxPanelSmallRectModel?
-    let fourth: BoxPanelSmallRectModel?
+    public let first: BoxPanelSmallRectModel?
+    public let second: BoxPanelSmallRectModel?
+    public let main: BoxPanelSmallRectModel
+    public let third: BoxPanelSmallRectModel?
+    public let fourth: BoxPanelSmallRectModel?
     
     @State var firstViewHover: Bool = false
     @State var secondViewHover: Bool = false
@@ -22,7 +22,7 @@ struct BoxPanelView: View {
     @State var thirdViewClick: Bool = false
     @State var fourthViewClick: Bool = false
     
-    init(main: BoxPanelSmallRectModel, first: BoxPanelSmallRectModel? = nil, second: BoxPanelSmallRectModel? = nil, third: BoxPanelSmallRectModel? = nil, fourth: BoxPanelSmallRectModel? = nil) {
+    public init(main: BoxPanelSmallRectModel, first: BoxPanelSmallRectModel? = nil, second: BoxPanelSmallRectModel? = nil, third: BoxPanelSmallRectModel? = nil, fourth: BoxPanelSmallRectModel? = nil) {
         self.first = first
         self.second = second
         self.main = main
@@ -30,7 +30,7 @@ struct BoxPanelView: View {
         self.fourth = fourth
     }
     
-    var body: some View {
+    public var body: some View {
         VStack(spacing: 0) {
             Divider()
             HStack(spacing: 0) {
