@@ -34,25 +34,25 @@ public enum UiConstants {
         public static var selected: Color { .accentColor }
     }
     
-    enum NotionColor {
-        enum Light {
-            static let red: Color = Color(red: 0.431, green: 0.212, blue: 0.188, opacity: 1.000)
-            static let gray: Color = Color(red: 0.353, green: 0.353, blue: 0.353, opacity: 1.000)
-            static let yellow: Color = Color(red: 0.537, green: 0.388, blue: 0.165, opacity: 1.000)
-            static let orange: Color = Color(red: 0.522, green: 0.298, blue: 0.114, opacity: 1.000)
-            static let blue: Color = Color(red: 0.161, green: 0.271, blue: 0.424, opacity: 1.000)
-            static let green: Color = Color(red: 0.173, green: 0.349, blue: 0.247, opacity: 1.000)
-            static let pink: Color = Color(red: 0.412, green: 0.192, blue: 0.298, opacity: 1.000)
+    public enum NotionColor {
+        public enum Light {
+            public static let red: Color = Color(red: 0.431, green: 0.212, blue: 0.188, opacity: 1.000)
+            public static let gray: Color = Color(red: 0.353, green: 0.353, blue: 0.353, opacity: 1.000)
+            public static let yellow: Color = Color(red: 0.537, green: 0.388, blue: 0.165, opacity: 1.000)
+            public static let orange: Color = Color(red: 0.522, green: 0.298, blue: 0.114, opacity: 1.000)
+            public static let blue: Color = Color(red: 0.161, green: 0.271, blue: 0.424, opacity: 1.000)
+            public static let green: Color = Color(red: 0.173, green: 0.349, blue: 0.247, opacity: 1.000)
+            public static let pink: Color = Color(red: 0.412, green: 0.192, blue: 0.298, opacity: 1.000)
         }
         
-        enum Dark {
-            static let red: Color = Color(red: 0.804, green: 0.286, blue: 0.275, opacity: 1.000)
-            static let gray: Color = Color(red: 0.608, green: 0.608, blue: 0.608, opacity: 1.000)
-            static let yellow: Color = Color(red: 0.792, green: 0.561, blue: 0.106, opacity: 1.000)
-            static let orange: Color = Color(red: 0.847, green: 0.463, blue: 0.125, opacity: 1.000)
-            static let blue: Color = Color(red: 0.180, green: 0.486, blue: 0.820, opacity: 1.000)
-            static let green: Color = Color(red: 0.176, green: 0.600, blue: 0.392, opacity: 1.000)
-            static let pink: Color = Color(red: 0.769, green: 0.263, blue: 0.529, opacity: 1.000)
+        public enum Dark {
+            public static let red: Color = Color(red: 0.804, green: 0.286, blue: 0.275, opacity: 1.000)
+            public static let gray: Color = Color(red: 0.608, green: 0.608, blue: 0.608, opacity: 1.000)
+            public static let yellow: Color = Color(red: 0.792, green: 0.561, blue: 0.106, opacity: 1.000)
+            public static let orange: Color = Color(red: 0.847, green: 0.463, blue: 0.125, opacity: 1.000)
+            public static let blue: Color = Color(red: 0.180, green: 0.486, blue: 0.820, opacity: 1.000)
+            public static let green: Color = Color(red: 0.176, green: 0.600, blue: 0.392, opacity: 1.000)
+            public static let pink: Color = Color(red: 0.769, green: 0.263, blue: 0.529, opacity: 1.000)
         }
     }
 }
