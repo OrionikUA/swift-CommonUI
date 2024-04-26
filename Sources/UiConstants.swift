@@ -35,7 +35,7 @@ public enum UiConstants {
     }
     
     public enum NotionColor {
-        public enum Light {
+        public enum Dark {
             public static let red: Color = Color(red: 0.431, green: 0.212, blue: 0.188, opacity: 1.000)
             public static let gray: Color = Color(red: 0.353, green: 0.353, blue: 0.353, opacity: 1.000)
             public static let yellow: Color = Color(red: 0.537, green: 0.388, blue: 0.165, opacity: 1.000)
@@ -45,7 +45,7 @@ public enum UiConstants {
             public static let pink: Color = Color(red: 0.412, green: 0.192, blue: 0.298, opacity: 1.000)
         }
         
-        public enum Dark {
+        public enum Light {
             public static let red: Color = Color(red: 0.804, green: 0.286, blue: 0.275, opacity: 1.000)
             public static let gray: Color = Color(red: 0.608, green: 0.608, blue: 0.608, opacity: 1.000)
             public static let yellow: Color = Color(red: 0.792, green: 0.561, blue: 0.106, opacity: 1.000)
