@@ -43,6 +43,7 @@ public enum UiConstants {
             public static let blue: Color = Color(red: 0.161, green: 0.271, blue: 0.424, opacity: 1.000)
             public static let green: Color = Color(red: 0.173, green: 0.349, blue: 0.247, opacity: 1.000)
             public static let pink: Color = Color(red: 0.412, green: 0.192, blue: 0.298, opacity: 1.000)
+            public static let purple: Color = Color(red: 0.286, green: 0.184, blue: 0.392, opacity: 1.000)
         }
         
         public enum Light {
@@ -53,6 +54,7 @@ public enum UiConstants {
             public static let blue: Color = Color(red: 0.180, green: 0.486, blue: 0.820, opacity: 1.000)
             public static let green: Color = Color(red: 0.176, green: 0.600, blue: 0.392, opacity: 1.000)
             public static let pink: Color = Color(red: 0.769, green: 0.263, blue: 0.529, opacity: 1.000)
+            public static let purple: Color = Color(red: 0.553, green: 0.357, blue: 0.757, opacity: 1.000)
         }
     }
 }
