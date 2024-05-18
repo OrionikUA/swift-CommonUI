@@ -136,3 +136,9 @@ public struct BoxPanelView: View {
         .foregroundStyle(foregroundColor())
     }
 }
+
+extension BoxPanelView {
+    static var errorView: BoxPanelView {
+        BoxPanelView(main: .init(type: .text, content: "Error"), first: .init(type: .systemImage, content: "ladybug.fill", color: .red))
+    }
+}
