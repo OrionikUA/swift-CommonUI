@@ -32,6 +32,7 @@ public enum UiConstants {
         public static let hover: Color = Color(red: 0.208, green: 0.216, blue: 0.216, opacity: 1.000)
         public static var accentHover: Color { .accentColor.opacity(0.4) }
         public static var selected: Color { .accentColor }
+        public static var divider: Color = Color(red: 0.227, green: 0.235, blue: 0.243, opacity: 1.000)
     }
     
     public enum NotionColor {
